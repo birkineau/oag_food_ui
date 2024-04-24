@@ -5,9 +5,7 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: SafeArea(
-          child: FoodApplication(),
-        ),
+        body: FoodApplication(),
       ),
     ),
   );
