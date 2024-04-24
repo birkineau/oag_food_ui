@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../animated_offset_switcher/animated_offset_switcher.dart';
-import 'food.dart';
+import 'package:oag_food_ui/animated_offset_switcher/animated_offset_switcher.dart';
+import 'package:oag_food_ui/dishes/food.dart';
 
 class FoodTile extends StatefulWidget {
   static const height = 192.0;

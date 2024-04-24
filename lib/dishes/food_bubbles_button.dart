@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../scale_button/scale_button.dart';
+import 'package:oag_food_ui/scale_button/scale_button.dart';
 
 class FoodBubblesButton extends StatelessWidget {
   const FoodBubblesButton({

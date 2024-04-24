@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:oag_food_ui/dishes/ui_design/ui_design.dart';
 import 'package:oag_food_ui/utility/utility.dart';
-
-import 'ui_design/cpaint.dart';
-import 'ui_design/cpaint_child.dart';
 
 class FoodBubbles extends StatefulWidget {
   const FoodBubbles({

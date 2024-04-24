@@ -159,11 +159,9 @@ class _FoodApplicationState extends State<FoodApplication> {
       return;
     }
 
-    setState(
-      () {
-        _showBubbles = false;
-      },
-    );
+    setState(() {
+      _showBubbles = false;
+    });
   }
 
   void _showFoodBubbles() {
@@ -172,10 +170,8 @@ class _FoodApplicationState extends State<FoodApplication> {
       return;
     }
 
-    setState(
-      () {
-        _showBubbles = true;
-      },
-    );
+    setState(() {
+      _showBubbles = true;
+    });
   }
 }

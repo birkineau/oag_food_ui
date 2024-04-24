@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-
-import 'food.dart';
+import 'package:oag_food_ui/dishes/food.dart';
 
 class FoodTileDisplay extends StatefulWidget {
   const FoodTileDisplay({

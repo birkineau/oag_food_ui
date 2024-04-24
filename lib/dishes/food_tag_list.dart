@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'food_tag.dart';
+import 'package:oag_food_ui/dishes/food.dart';
 
 class FoodTagList extends StatelessWidget {
   const FoodTagList({
