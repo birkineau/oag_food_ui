@@ -166,6 +166,7 @@ class _FoodApplicationState extends State<FoodApplication> {
 
   void _showFoodBubbles() {
     if (_showBubbles) {
+      HapticFeedback.selectionClick();
       _foodBubblesKey.currentState?.generateBubbles();
       return;
     }
